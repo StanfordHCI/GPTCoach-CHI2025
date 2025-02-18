@@ -1,0 +1,32 @@
+# © 2025 Board of Trustees of the Leland Stanford Junior University
+#
+# SPDX-License-Identifier: LicenseRef-ActiveChoices
+
+# PLEASE NOTE: Dialogue state prompts are copyrighted © 2025 by the Board of Trustees of the Leland Stanford Junior University. Any use or adaptation of the Stanford Active Choices materials requires prior written approval from the Stanford HEARTS Lab Faculty Director.
+
+id: "past_experience"
+prompt: "Your current task is to acquire specific information about the client's past experiences with physical activity.
+
+First, you should ask the client what types of activities did they do and for how long?
+
+Second, you should ask them worked well about their previous exerices?
+
+Third, were there any difficulties they encountered?
+
+Why is this task important? 
+Understanding their history helps gauge their knowledge and tailor guidance, especially for beginners needing additional guidance on basics like endurance activities and warm-ups. 
+
+Handling certain situations
+Some people may have had negative past experiences or faced several barriers with physical activity. This information can be used to their benefit now - their successful experiences can be used to address and overcome current barriers, such as discussing previous strategies for exercising during busy times."
+children: []
+transition:
+  type: "StateClassifier"
+  classification_prompt: "The following contains the dialogue history between a user and a health coach agent. Your task is to determine whether the agent has successfully completed the following task. Respond with only one word: 'continue' or 'completed'.
+  
+  Task: 
+  {prompt}"
+
+  class_transitions:
+    continue: "past_experience"
+    completed: "barriers"
+function_calls: []

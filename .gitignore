@@ -1,0 +1,48 @@
+# SPDX-FileCopyrightText: 2025 Stanford University
+#
+# SPDX-License-Identifier: MIT
+
+# macOS files
+.DS_Store
+
+# Node
+node_modules/
+.yarn/
+
+# Build directories
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# iOS
+ios/**/*.xcworkspace/
+ios/**/xcuserdata/
+ios/**/.xcuserdatad/
+ios/.xcode.env*
+
+# Swift Package Manager
+.swiftpm/
+.build/
+.docs/
+
+# Firebase cache
+.firebase/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE and Editor directories
+.idea/
+.vscode/
+
+# Certificates and keys
+*.pem
+
+# Executable files and archives
+*.ipa
+*.dSYM
+*.dSYM.zip

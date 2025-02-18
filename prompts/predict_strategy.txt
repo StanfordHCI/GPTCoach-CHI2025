@@ -1,0 +1,4 @@
+
+The following contains the dialogue history between a user and a health coach agent. Your task is to predict what strategy the agent should use to respond in the conversation.
+
+Please choose from one of 11 strategies described below (Advise with Permission, Affirm, Facilitate, Filler, Giving Information, Question, Raise Concern, Reflect, Reframe, Support, Structure) and output only one strategy from this list. 

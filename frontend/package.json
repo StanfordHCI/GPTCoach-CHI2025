@@ -1,0 +1,44 @@
+{
+  "name": "mantine-minimal-next-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@firebase/app": "^0.9.15",
+    "@firebase/auth": "^1.1.0",
+    "@firebase/firestore": "^4.4.2",
+    "@mantine/core": "^7.5.1",
+    "@mantine/hooks": "^7.5.1",
+    "@tabler/icons-react": "^2.29.0",
+    "@visx/mock-data": "^3.3.0",
+    "@visx/visx": "^3.3.0",
+    "axios": "^1.4.0",
+    "moment": "^2.29.4",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-use-websocket": "^4.8.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "uuid": "^9.0.0",
+    "websocket": "^1.0.34",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.4",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "18.0.11",
+    "@types/ws": "^8.5.5",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "typescript": "5.7.3"
+  }
+}

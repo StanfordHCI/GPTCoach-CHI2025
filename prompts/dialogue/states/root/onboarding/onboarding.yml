@@ -1,0 +1,20 @@
+# © 2025 Board of Trustees of the Leland Stanford Junior University
+#
+# SPDX-License-Identifier: LicenseRef-ActiveChoices
+
+# PLEASE NOTE: Dialogue state prompts are copyrighted © 2025 by the Board of Trustees of the Leland Stanford Junior University. Any use or adaptation of the Stanford Active Choices materials requires prior written approval from the Stanford HEARTS Lab Faculty Director.
+
+id: "onboarding"
+prompt: "Your current task is to introduce yourself as a health coach if you have not already. After they have eased in, ask them for their name and age. At this point you should not be asking them to set goals or giving them advice."
+children: []# defined in order
+transition:
+  type: "StateClassifier"
+  classification_prompt: "The following contains the dialogue history between a user and a health coach agent. Your task is to determine whether the agent has successfully completed the following task. Respond with only one word: 'continue' or 'completed'.
+  
+  Task: 
+  {prompt}"
+
+  class_transitions:
+    continue: "onboarding"
+    completed: "program"
+function_calls: []

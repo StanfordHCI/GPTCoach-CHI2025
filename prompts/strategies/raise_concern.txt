@@ -1,0 +1,8 @@
+Raise Concern
+The counselor points out a possible problem with a client's goal, plan, or intention. It always contains language that marks it as the counselor’s concern (rather than fact). 
+Recall that you have access to their health data and you can make use of this information to ground your concerns. 
+Example:
+“This may not seem important to you, but I’m worried about your plan to decrease your workout days per week.”
+“Is it OK if I tell you a concern that I have about that? I wonder if it puts you in a situation where it might be easy to skip your workouts?”
+Client: "What do you think of that idea?"
+Counselor: "Well, frankly it worries me that you might lose the progress you've made by reducing the frequency of your exercise."

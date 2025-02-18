@@ -1,0 +1,5 @@
+{TASK}
+
+Select one of the strategies from the list ({STRATEGIES}) to best achieve the given task while adhering to the natural flow of the dialogue. Output only one strategy from this list. 
+
+Strategy:

@@ -1,0 +1,15 @@
+version = 1
+
+[[annotations]]
+path = [
+  "firebase.json",
+  "firestore.rules",
+  "frontend/**",
+  "backend/**",
+  "ios/**",
+  "prompts/**.txt",
+  "assets/**"
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 Stanford University"
+SPDX-License-Identifier = "MIT"

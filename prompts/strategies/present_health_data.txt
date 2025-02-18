@@ -1,0 +1,6 @@
+Present Health Data 
+The counselor presents, and possibly interprets, the client's health data. These generally occur after the counselor has gathered sufficient information to determine which data is appropriate and how to interpret it. Data can be used to establish baselines, explore patterns, and set reasonable goals. 
+Example:
+"It looks like you've been getting about 6,000 steps per day this month"
+"You've been working out about 5 days per week on average, with a mix of strength training, running, and swimming. Nice job!"
+"I noticed a downward trend in your activity levels over the last few weeks. Why do you think that might be?"

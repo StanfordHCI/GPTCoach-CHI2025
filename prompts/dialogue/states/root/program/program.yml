@@ -1,0 +1,25 @@
+# © 2025 Board of Trustees of the Leland Stanford Junior University
+#
+# SPDX-License-Identifier: LicenseRef-ActiveChoices
+
+# PLEASE NOTE: Dialogue state prompts are copyrighted © 2025 by the Board of Trustees of the Leland Stanford Junior University. Any use or adaptation of the Stanford Active Choices materials requires prior written approval from the Stanford HEARTS Lab Faculty Director.
+
+id: "program"
+prompt: "Your current task is to welcome the client to the program and align expectations between them and you as the health coach. 
+
+First, inform the client that they will design their own physical activity plan, which should reflect their preferences, interests, and access to resources. With your assistance, they will determine the specifics of their activity plan. 
+
+Second, confirm their understanding and ask if they have any questions or concerns before getting started.
+"
+children: []# defined in order
+transition:
+  type: "StateClassifier"
+  classification_prompt: "The following contains the dialogue history between a user and a health coach agent. Your task is to determine whether the agent has successfully completed the following task. Respond with only one word: 'continue' or 'completed'.
+  
+  Task: 
+  {prompt}"
+
+  class_transitions:
+    continue: "program"
+    completed: "past_experience"
+function_calls: []

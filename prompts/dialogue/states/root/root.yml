@@ -1,0 +1,13 @@
+# © 2025 Board of Trustees of the Leland Stanford Junior University
+#
+# SPDX-License-Identifier: LicenseRef-ActiveChoices
+
+id: "root"
+prompt: ""
+children: # defined in order
+  - "onboarding"  
+  - "goal_setting"
+  - "completed"
+  - "not_consented"
+transition: 
+function_calls: []
