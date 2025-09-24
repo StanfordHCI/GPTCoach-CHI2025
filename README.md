@@ -66,7 +66,7 @@ Our project uses the [REUSE Standard](https://reuse.software) for copyright and 
 All code in `backend`, `frontend`, and `ios` is licensed under the [MIT license](LICENSES/MIT.txt).
 
 2. **Active Choices Prompts (Proprietary)**  
-The dialogue state prompts in [`prompts/dialogue`](prompts/dialogue/)  are **not** open source and are © 2025 Board of Trustees of the Leland Stanford Junior University.  Any use or adaptation requires prior written approval from the Stanford HEARTS Lab Faculty Director. See [`LICENSES/ActiveChoices.txt`](LICENSES/ActiveChoices.txt) for details.
+The dialogue state prompts in [`prompts/dialogue`](prompts/dialogue/)  are **not** open source and are © 2025 Board of Trustees of the Leland Stanford Junior University.  Any use or adaptation requires prior written approval from the Stanford HEARTS Lab Faculty Director. See [`LICENSES/ActiveChoices.txt`](LICENSES/LicenseRef-ActiveChoices.txt) for details.
 
 ## Contact
 For questions, please contact Matthew Jörke at [joerke@stanford.edu](mailto:joerke@stanford.edu). Please note that GPTCoach is a research prototype and will not be actively maintained. We can provide limited technical support and cannot guarantee that the software will run in the future. 
